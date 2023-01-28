@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fiec"
+version = "0.1.0"
+description = ""
+authors = ["Gabryel Guedes <gabryelsguedes@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.3"
+numpy = "^1.24.1"
+matplot = "^0.1.9"
+seaborn = "^0.12.2"
+scikit-learn = "^1.2.1"
+xgboost = "^1.7.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.20.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
